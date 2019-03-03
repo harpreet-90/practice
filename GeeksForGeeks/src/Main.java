@@ -4,9 +4,15 @@ public class Main {
 	final int VERTEX_COUNT = 2000;
 	public static void main(String[] args)
 	{
-		StackUtils su = new StackUtils();
-		int[] arr = {7, 5, 9, 1, 5, 11, 7, 3};
-		su.nextGratorElement(arr);
+		ArrayUtils au = new ArrayUtils();
+		int[] arr = {2,4,0,6};
+		au.nextGreatorElement(arr);
+//		au.printArray(arr);
+//		int[][] arr = {{1, 2},{2, 4},{ 3, 5}};
+//		System.out.println(au.searchInSortedMatrix(arr, 3, 2, 5));
+//		System.out.println(au.searchInSortedMatrix(arr, 3, 2, 9));
+//		System.out.println(au.searchInSortedMatrix(arr, 3, 2, 4));
+//		System.out.println(au.searchInSortedMatrix(arr, 3, 2, 6));
 	}
 }
 
