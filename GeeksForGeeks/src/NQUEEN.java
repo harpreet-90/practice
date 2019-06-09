@@ -79,7 +79,8 @@ class NQUEEN {
 
 	private boolean safeToPlace(int i, int j) {
 		// TODO Auto-generated method stub
-		if(((Row.contains(i)== false) || (Row.containsKey(i) && Row.get(i)== false)) && ((Col.containsKey(j)==false) ||((Col.containsKey(j)==true) && Col.get(j)== false)) && (uperDiagonal.containsKey(i+j)==false ||( uperDiagonal.containsKey(i+j) && uperDiagonal.get(i+j)== false)) && (LowerDiagonal.containsKey(n+i-j)==false || (LowerDiagonal.containsKey(n + i-j) && LowerDiagonal.get(n+ i-j)== false)))
+		if(((Row.contains(i)== false) || (Row.containsKey(i) && Row.get(i)== false)) 
+				&& ((Col.containsKey(j)==false) ||((Col.containsKey(j)==true) && Col.get(j)== false)) && (uperDiagonal.containsKey(i+j)==false ||( uperDiagonal.containsKey(i+j) && uperDiagonal.get(i+j)== false)) && (LowerDiagonal.containsKey(n+i-j)==false || (LowerDiagonal.containsKey(n + i-j) && LowerDiagonal.get(n+ i-j)== false)))
 		{
 			return true;
 		}
